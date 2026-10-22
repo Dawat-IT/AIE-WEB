@@ -1,0 +1,30 @@
+AMERICAN IT EXPERTS - REPLACE OR CONFIRM BEFORE LAUNCH
+Seven pages: index, managed-it, software, enterprise-itsm, about, contact, privacy. Upload the whole folder to your host.
+
+SWITCHES (edit config.js only)
+1. FORM_ENDPOINT - paste a free Formspree/Basin/Getform URL so contact-form and chat leads reach support@americanitexperts.com.
+   Left empty, the form opens the visitor's email app and the chat shows the address. Nothing is reported as "sent".
+2. CHAT_ENDPOINT - optional. Deploy worker/chat-worker.js (instructions are in the file header) for real-AI answers.
+   Left empty, the assistant runs in guided mode and costs nothing.
+3. HERO_VIDEO / HERO_POSTER - after you generate the Higgsfield loop, put hero-loop.mp4 and hero-poster.jpg in /media and set both paths. Note: when a hero video loads, the network animation is hidden so it does not fight with the video. Leave both empty to keep the animated hero.
+
+CONFIRM THESE FACTS (all copy uses only what you told me; these are the claims to double-check)
+4. support@americanitexperts.com - make sure the mailbox exists and receives mail.
+5. Offers I assumed: "free IT review", "No obligation", "We reply by the next business day". Edit to match your terms.
+6. "15+ years", "U.S.-led", "ITIL-aligned" (aligned, not certified), "remote-first".
+7. Tools named: ServiceNow, Jira (Enterprise page); AWS, Google Cloud, Azure, Microsoft 365, Entra ID (Managed IT page). Remove any you do not support.
+8. CRM platforms named: Zoho CRM, HubSpot, Salesforce, Microsoft Dynamics 365. The footer no longer carries a trademark / non-affiliation line (removed at your request). Product names are used only to say which platforms you support; consider asking your lawyer whether to add one back.
+9. AI practices described on the Software page ("an owner for every agent", "limited access", "a person approves sensitive steps", "a runbook and a log"). Keep only what you will really do.
+10. ISO 27001 and AI governance are described as readiness/gap REVIEWS, not certification audits, and no one is called a certified lead auditor.
+    Update the wording only after you hold the certificate.
+11. Certificates on the About page: Odoo Accounting, Google Digital Garage, Meta Blueprint, HubSpot Marketing Mastery. Check exact titles and have the certificates ready.
+12. "Sample incident record" (INC-0412) and "Sample problem record" (PRB-0087) are illustrations and are labeled as such. Swap in a real, permitted case study later.
+13. No offshore team is mentioned, as you asked. No prices are shown (quote on request).
+
+BEFORE YOU GO LIVE
+14. privacy.html is a plain-language DRAFT, linked from the footer, the form and the chat. Have a lawyer review it, and confirm: the form provider you choose,
+    how long you keep leads, whether you add analytics later (update the page if you do), and whether AI chat is switched on.
+15. Phone (469) 326-2287 and address 3401 Custer Rd, Suite 154, Plano, TX 75023 are shown in the footer, Contact and About pages, the chatbot and the search-engine data (JSON-LD).
+    Make sure someone answers that number, and that the address is one you want public (a suite that is not a home address). Use the exact same spelling in your Google Business Profile.
+    Optional: LinkedIn link, and a redirect from www to americanitexperts.com.
+16. Logo text reads "IT Expert" (singular) while the brand is "American IT Experts". Replace logo.png if you want them to match.
